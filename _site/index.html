@@ -36,7 +36,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="/assets/css/dist-main.css" rel="stylesheet">
+    <link href="/assets/dist-main.css" rel="stylesheet">
   </head><body><script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.13.3/cdn.js"></script>
 <header class="antialiased bg-gray-200">
     <div x-data="{ mobileMenuOpen: false }" class="relative z-10 bg-white">
@@ -456,12 +456,13 @@
             </div>
         </div>
     </div>
-</header><div class="w-full bg-no-repeat bg-cover bg-center relative" style="background-image: url('your-image-url.jpg'); height: 300px;">
+</header>
+<div class="w-full bg-no-repeat bg-cover bg-center relative" style="background-image: url('your-image-url.jpg'); height: 300px;">
     <div class="absolute inset-0 bg-black opacity-50"></div>
-    <div class="absolute inset-0 flex justify-center items-center">
+    <div class="absolute bottom-0 w-full pb-10">
         <div class="text-white text-center">
-            <h1 class="text-5xl font-bold">Your Banner Title Here</h1>
-            <p class="mt-4 text-xl">Your inspiring tagline</p>
+            <h1 class="text-3xl md:text-5xl font-bold">Your Banner Title Here</h1>
+            <p class="mt-2 md:mt-4 text-lg md:text-xl">Your inspiring tagline</p>
         </div>
     </div>
 </div><main class="page-content max-w-screen-lg mx-auto h-full" aria-label="Content">
