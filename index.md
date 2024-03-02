@@ -29,7 +29,7 @@ layout: home
 
 <br />
 
-<img src="/assets/images/boat-4899802_1280.jpg" class="mb-5" />
+<img src="/test.github.io/assets/images/boat-4899802_1280.jpg" class="mb-5" />
 
 <p class="leading-relaxed mb-10">
     Nulla nunc massa, pellentesque in rutrum ut, pharetra non diam. Phasellus egestas accumsan nisl, sed scelerisque eros gravida quis. Curabitur aliquet pharetra vulputate. In tempor quis felis eget volutpat. Duis orci ex, tincidunt eget ornare nec, porta facilisis sem. Ut quis neque nec diam vestibulum convallis. Suspendisse pulvinar, eros at sagittis feugiat, lorem est tristique ipsum, non vestibulum ex sem ut nunc. Vestibulum dignissim dignissim convallis. Etiam a laoreet sem. Quisque ornare dui sed tellus finibus commodo. Maecenas ullamcorper sollicitudin felis id lacinia. Sed rhoncus mauris dignissim lectus malesuada dapibus. Quisque ut lectus ac est consequat venenatis vitae sed est. Maecenas aliquet vehicula urna, eu commodo libero ultricies a. Donec ipsum est, imperdiet ut posuere id, tempus ac ligula.
