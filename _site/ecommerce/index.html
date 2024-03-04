@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Add TailwindCSS to Jekyll demo by https://syntaxjournal.com/">
+    <title>: Ecommerce Solutions</title> 
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="HoZt" />
+
+    <!-- Favicon -->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/favicon/site.webmanifest"> -->
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@500&display=swap" rel="stylesheet">  
+
+    <!-- Custom styles for this template -->
+    <link href="/assets/dist-main.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  </head><body>
+<nav class="bg-gray-800 text-white">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between">
+            <div class="flex space-x-4">
+               <div>
+                    <a href="/" class="flex items-center py-3 w-24 px-2">
+                        <img src="/assets/images/logo.png" />
+                    </a>
+                </div>
+
+                <!-- Primary Navbar items -->
+                <div class="hidden md:flex items-center space-x-1 justify-self-end">
+                    <a href="/about/" class="py-4 px-3 hover:bg-gray-700 hover:text-gray-200">About</a>
+                    <a href="/why/" class="py-4 px-3 hover:bg-gray-700 hover:text-gray-200">Why</a>
+                    
+                    <div class="relative group">
+                        <button class="services py-4 px-3 inline-flex items-center hover:bg-gray-700 hover:text-gray-200">
+                            Services
+                            <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="services-links z-10 absolute hidden group-hover:block bg-gray-700">
+                            <a href="/services/#upgrades" class="text-white block py-1 px-4 hover:bg-gray-600">Website Upgrades</a>
+                            <a href="/services/#platform" class="text-white block py-1 px-4 hover:bg-gray-600">Platform Migrations</a>
+                            <a href="/services/#data" class="text-white block py-1 px-4 hover:bg-gray-600">Data Migration</a>
+                            <a href="/services/#fix" class="text-white block py-1 px-4 hover:bg-gray-600">Fixing Broken Websites</a>
+                        </div>
+                    </div> 
+                    <a href="/static/" class="py-4 px-3 hover:bg-gray-700 hover:text-gray-200">Static</a>
+                    <a href="/ecommerce/" class="py-4 px-3 hover:bg-gray-700 hover:text-gray-200">eCommerce</a>
+                    <a href="/contact/" class="py-4 px-3 hover:bg-gray-700 hover:text-gray-200">Contact</a>
+                </div>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden flex items-center">
+                <button class="mobile-menu-button">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden md:hidden mb-5">
+        <a href="/about/" class="block py-2 px-4 text-md hover:bg-gray-700">About</a>
+        <a href="/why/" class="block py-2 px-4 text-md hover:bg-gray-700">Why</a>
+        <a href="/services/" class="block py-2 px-4 text-md hover:bg-gray-700">Services</a>
+        <a href="/ecommerce/" class="block py-2 px-4 text-md hover:bg-gray-700">eCommerce</a>
+        <a href="/static/" class="block py-2 px-4 text-md hover:bg-gray-700">Static</a>
+        <a href="/contact/" class="block py-2 px-4 text-md hover:bg-gray-700">Contact</a>
+    </div>
+</nav>
+
+<script>
+    const btn = document.querySelector(".mobile-menu-button");
+    const menu = document.querySelector(".mobile-menu");
+
+    btn.addEventListener("click", () => {
+        alert('here');     
+        menu.classList.toggle("hidden");
+
+    });
+
+</script>
+
+<div class="w-full mb-8 bg-no-repeat bg-cover bg-center relative" style="background-image: url('/assets/images/banners/skyline.webp'); height: 350px;">
+    <div class="absolute bottom-0 w-full">
+        <div class="text-white text-center" style="background: rgba(70,70,70,0.6)">
+            <h1 class="pt-3 banner-font">Ecommerce Solutions</h1>
+            <h2 class="pb-4 banner-font">Subtitle</h2>
+        </div>
+    </div>
+</div>
+<main class="page-content max-w-screen-lg mx-auto h-full" aria-label="Content">
+      <div class="wrapper mt-5 mx-3 md:mx-10">
+        <p>Every business is unique, and so should be its online store. We offer tailored eCommerce development services that align with your specific business model, target audience, and long-term objectives. Our custom solutions ensure your online store stands out in the crowded digital marketplace.</p>
+
+<h3 id="experience-across-a-variety-of-ecommerce-platforms">Experience across a variety of eCommerce platforms:</h3>
+
+<p>WooCommerce: Turn your WordPress website into a powerful eCommerce store with customized WooCommerce solutions.</p>
+
+<p>PrestaShop: Leverage this flexible platform for a highly customizable store that scales with your business.</p>
+
+<p>BigCommerce: Take advantage of our BigCommerce expertise to launch a robust online store with advanced features.</p>
+
+<p>Drupal Commerce: Utilize Drupal’s flexibility for an eCommerce solution that integrates seamlessly with complex content structures.</p>
+
+<p>Our multi-platform expertise ensures we can recommend and work with the best platform that suits your business needs.</p>
+
+<h3 id="seamless-integration">Seamless Integration</h3>
+
+<p>From payment gateways to inventory management, we ensure seamless integration of essential eCommerce functionalities. Our focus on creating a cohesive shopping experience helps improve customer satisfaction and drive sales.</p>
+
+<h3 id="ongoing-support-and-optimization">Ongoing Support and Optimization</h3>
+
+<p>Our relationship with clients goes beyond the launch. We provide ongoing support, maintenance, and optimization services to ensure your eCommerce site remains competitive, secure, and up-to-date with the latest trends and technologies.</p>
+
+      </div>
+    </main><footer class="bg-gray-100 h-14 mt-10">
+    <div class="text-center h-full text-sm pt-3 pb-1">
+        Copyright HoZt &copy; 2024 All Rights Reserved
+    </div>
+</footer></body> 
+
+</html>

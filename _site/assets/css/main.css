@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-3xl;
+    }
+    h2 {
+        @apply text-xl font-medium;
+    }
+    h3 {
+        @apply text-lg font-medium;
+    }
+    h4 {
+        @apply text-lg font-medium;
+    }
+    p {
+        @apply mt-2 mb-4;
+    }
+}
+
+.banner-font {
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}

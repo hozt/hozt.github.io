@@ -1,36 +1,44 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: base
+bannerImage: /assets/images/banners/sedona1.webp
+title: Our Mission
+subTitle: Subtitle
 ---
 
-<div class="container mx-auto px-4 mb-6">
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-        <div class="bg-gray-200 p-4">Column 1</div>
-        <div class="bg-gray-200 p-4">Column 2</div>
-        <div class="bg-gray-200 p-4">Column 3</div>
-        <div class="bg-gray-200 p-4 text-white">Column 4</div>
+<div class="my-6 text-lg">
+    At HoZt, we specialize in crafting web solutions that drive success. From stunning websites to seamless eCommerce platforms and efficient IT services, we empower your business to thrive in the digital world.
+</div>
+
+<div class="my-6 text-lg">
+    Ready to transform your online presence? <a href="/contact/">Get in touch</a> with us to discuss how we can bring your project to life. Together, we’ll create digital experiences that captivate and convert.
+</div>
+
+<div class="mx-auto my-10">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <div class="bg-gray-800 p-4 text-center">
+            <div class="fa fa-globe fa-4x text-gray-400 pb-2"></div>
+            <div class="text-lg text-white font-medium">Web Development</div>
+            <div class="text-sm text-white h-20">Transform your vision into reality with custom websites that blend aesthetics with functionality.</div>
+            <div class="mt-2"><a href="#" class="text-gray-400">Find Out More</a></div>
+        </div>
+        <div class="bg-gray-800 p-4 text-center">
+            <div class="fa fa-fighter-jet fa-4x text-gray-400 pb-2"></div>
+            <div class="text-lg text-white font-medium">Static Website</div>
+            <div class="text-sm text-white h-20">Lightning fast website with zero maintenance and no hosting charges.</div>
+            <div class="mt-2"><a href="#" class="text-gray-400">Find Out More</a></div>
+        </div>
+        <div class="bg-gray-800 p-4 text-center">
+            <div class="fa fa-shopping-cart fa-4x text-gray-400 pb-2"></div>
+            <div class="text-lg text-white font-medium">eCommerce Solutions</div>
+            <div class="text-sm text-white h-20">Expertly designed platforms on WooCommerce, PrestaShop, BigCommerce, and Drupal Commerce.</div>
+            <div class="mt-2"><a href="#" class="text-gray-400">Find Out More</a></div>
+        </div>
+        <div class="bg-gray-800 p-4 text-center">
+            <div class="fa fa-wrench fa-4x text-gray-400 pb-2"></div>
+            <div class="text-lg text-white font-medium">Custom</div>
+            <div class="text-sm text-white h-20">Data and platform migrations, website updates, and fix issues with your current website.</div>
+            <div class="mt-2"><a href="#" class="text-gray-400">Find Out More</a></div>
+        </div>
     </div>
 </div>
 
-<div class="container mx-auto px-4 mt-6">
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-        <div class="bg-gray-200 p-4">Column 1</div>
-        <div class="bg-gray-200 p-4">Column 2</div>
-        <div class="bg-gray-200 p-4">Column 3</div>
-        <div class="bg-gray-200 p-4 text-white">Column 4</div>
-    </div>
-</div>
-
-<p class="leading-loose">
-    Vivamus et vulputate arcu. Quisque sit amet scelerisque magna. Morbi quis dolor euismod, luctus odio nec, lobortis magna. Morbi elementum sagittis nisi, et tempus purus eleifend in. Fusce sed quam rutrum, ullamcorper tortor sed, mattis erat. In vehicula feugiat posuere. Nam sed neque ante. Integer sit amet tincidunt lectus, sit amet posuere nulla. Morbi ornare imperdiet lectus, blandit sodales ipsum accumsan et. Integer orci dui, bibendum in lacus eget, rhoncus consectetur lacus. Mauris eget ullamcorper risus, id eleifend nibh. Praesent malesuada lorem sit amet augue dapibus rhoncus. Sed congue purus vel dui fringilla, nec luctus ante aliquet.
-</p>
-
-<br />
-
-<img src="assets/images/boat-4899802_1280.jpg" class="mb-5" />
-
-<p class="leading-relaxed mb-10">
-    Nulla nunc massa, pellentesque in rutrum ut, pharetra non diam. Phasellus egestas accumsan nisl, sed scelerisque eros gravida quis. Curabitur aliquet pharetra vulputate. In tempor quis felis eget volutpat. Duis orci ex, tincidunt eget ornare nec, porta facilisis sem. Ut quis neque nec diam vestibulum convallis. Suspendisse pulvinar, eros at sagittis feugiat, lorem est tristique ipsum, non vestibulum ex sem ut nunc. Vestibulum dignissim dignissim convallis. Etiam a laoreet sem. Quisque ornare dui sed tellus finibus commodo. Maecenas ullamcorper sollicitudin felis id lacinia. Sed rhoncus mauris dignissim lectus malesuada dapibus. Quisque ut lectus ac est consequat venenatis vitae sed est. Maecenas aliquet vehicula urna, eu commodo libero ultricies a. Donec ipsum est, imperdiet ut posuere id, tempus ac ligula.
-</p>

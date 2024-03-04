@@ -2,11 +2,14 @@
 module.exports = {
   content: [ 
     '_includes/**/*.html',
+    '_includes/*.html',
     '_layouts/**/*.html',
-    '*.md'
+    '*.md',
+    '_posts/*.md'
   ],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+  ]
 }

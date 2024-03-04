@@ -3,87 +3,128 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Add TailwindCSS to Jekyll demo by https://syntaxjournal.com/">
-    <title>Jekyll - TailwindCSS Demo: About</title> 
-    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Jekyll - TailwindCSS Demo" />
-    <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>About | Jekyll - TailwindCSS Demo</title>
-<meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="About" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Demo Jekyll project which uses TailwindCSS for its styling." />
-<meta property="og:description" content="Demo Jekyll project which uses TailwindCSS for its styling." />
-<link rel="canonical" href="http://localhost:4000/about/" />
-<meta property="og:url" content="http://localhost:4000/about/" />
-<meta property="og:site_name" content="Jekyll - TailwindCSS Demo" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="About" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Demo Jekyll project which uses TailwindCSS for its styling.","headline":"About","name":"Jekyll - TailwindCSS Demo","url":"http://localhost:4000/about/"}</script>
-<!-- End Jekyll SEO tag -->
-
+    <title>: About HoZt</title> 
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="HoZt" />
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
-    <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/favicon/site.webmanifest"> -->
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@500&display=swap" rel="stylesheet">  
+
     <!-- Custom styles for this template -->
     <link href="/assets/dist-main.css" rel="stylesheet">
-  </head><body><header class="site-header" role="banner">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  </head><body>
+<nav class="bg-gray-800 text-white">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between">
+            <div class="flex space-x-4">
+               <div>
+                    <a href="/" class="flex items-center py-3 w-24 px-2">
+                        <img src="/assets/images/logo.png" />
+                    </a>
+                </div>
 
-  <div class="wrapper"><a class="site-title" rel="author" href="/">Jekyll - TailwindCSS Demo</a><nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
+                <!-- Primary Navbar items -->
+                <div class="hidden md:flex items-center space-x-1 justify-self-end">
+                    <a href="/about/" class="py-4 px-3 hover:bg-gray-700 hover:text-gray-200">About</a>
+                    <a href="/why/" class="py-4 px-3 hover:bg-gray-700 hover:text-gray-200">Why</a>
+                    
+                    <div class="relative group">
+                        <button class="services py-4 px-3 inline-flex items-center hover:bg-gray-700 hover:text-gray-200">
+                            Services
+                            <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="services-links z-10 absolute hidden group-hover:block bg-gray-700">
+                            <a href="/services/#upgrades" class="text-white block py-1 px-4 hover:bg-gray-600">Website Upgrades</a>
+                            <a href="/services/#platform" class="text-white block py-1 px-4 hover:bg-gray-600">Platform Migrations</a>
+                            <a href="/services/#data" class="text-white block py-1 px-4 hover:bg-gray-600">Data Migration</a>
+                            <a href="/services/#fix" class="text-white block py-1 px-4 hover:bg-gray-600">Fixing Broken Websites</a>
+                        </div>
+                    </div> 
+                    <a href="/static/" class="py-4 px-3 hover:bg-gray-700 hover:text-gray-200">Static</a>
+                    <a href="/ecommerce/" class="py-4 px-3 hover:bg-gray-700 hover:text-gray-200">eCommerce</a>
+                    <a href="/contact/" class="py-4 px-3 hover:bg-gray-700 hover:text-gray-200">Contact</a>
+                </div>
+            </div>
 
-        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
-      </nav></div>
-</header>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <article class="post">
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden flex items-center">
+                <button class="mobile-menu-button">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </div>
+    </div>
 
-  <header class="post-header">
-    <h1 class="post-title">About</h1>
-  </header>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden md:hidden mb-5">
+        <a href="/about/" class="block py-2 px-4 text-md hover:bg-gray-700">About</a>
+        <a href="/why/" class="block py-2 px-4 text-md hover:bg-gray-700">Why</a>
+        <a href="/services/" class="block py-2 px-4 text-md hover:bg-gray-700">Services</a>
+        <a href="/ecommerce/" class="block py-2 px-4 text-md hover:bg-gray-700">eCommerce</a>
+        <a href="/static/" class="block py-2 px-4 text-md hover:bg-gray-700">Static</a>
+        <a href="/contact/" class="block py-2 px-4 text-md hover:bg-gray-700">Contact</a>
+    </div>
+</nav>
 
-  <div class="post-content">
-    <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="https://jekyllrb.com/">jekyllrb.com</a></p>
+<script>
+    const btn = document.querySelector(".mobile-menu-button");
+    const menu = document.querySelector(".mobile-menu");
 
-<p>You can find the source code for Minima at GitHub:
-<a href="https://github.com/jekyll">jekyll</a> /
-<a href="https://github.com/jekyll/minima">minima</a></p>
+    btn.addEventListener("click", () => {
+        alert('here');     
+        menu.classList.toggle("hidden");
 
-<p>You can find the source code for Jekyll at GitHub:
-<a href="https://github.com/jekyll">jekyll</a> /
-<a href="https://github.com/jekyll/jekyll">jekyll</a></p>
+    });
 
+</script>
 
-  </div>
+<div class="w-full mb-8 bg-no-repeat bg-cover bg-center relative" style="background-image: url('/assets/images/banners/dutchman.webp'); height: 350px;">
+    <div class="absolute bottom-0 w-full">
+        <div class="text-white text-center" style="background: rgba(70,70,70,0.6)">
+            <h1 class="pt-3 banner-font">About HoZt</h1>
+            <h2 class="pb-4 banner-font">Your partner in completing your project</h2>
+        </div>
+    </div>
+</div>
+<main class="page-content max-w-screen-lg mx-auto h-full" aria-label="Content">
+      <div class="wrapper mt-5 mx-3 md:mx-10">
+        <h2 id="our-story">Our Story</h2>
 
-</article>
+<p>Founded in 2010 by a group of passionate digital experts, HoZt has a focus on innovation, reliability, and customer satisfaction. Our journey is driven by a love for technology and the success of our clients.</p>
+
+<h2 id="our-mission">Our Mission</h2>
+
+<p>At HoZt, our mission is to empower businesses by providing cutting-edge digital solutions. We believe in creating online experiences that not only meet the current needs of our clients but also anticipate and adapt to future trends. Our goal is to make technology accessible, scalable, and secure for businesses of all sizes.</p>
+
+<h2 id="our-values">Our Values</h2>
+
+<p>Innovation: We constantly explore new technologies and methodologies to offer the best solutions to our clients.</p>
+
+<p>Integrity: Transparency and honesty guide all our interactions and decisions.</p>
+
+<p>Customer Success: Your success is our success. We listen to your needs and tailor our services to help you achieve your business goals.</p>
+
+<p>Excellence: We strive for excellence in every project, delivering quality results that exceed expectations.</p>
+
+<p>Teamwork: Our team is our greatest asset. We foster a collaborative environment where creativity and knowledge sharing lead to outstanding outcomes.</p>
 
       </div>
-    </main><footer class="bg-gray-50 h-14 mt-10">
-    <data class="u-url" href="https://syntaxjournal.com/"></data>
-    <div class="flex items-center max-w-screen-lg mx-auto h-full">
-        <p class="t font-medium">
-            Demo created by: <a href="https://syntaxjournal.com/" class="text-blue-400 hover:text-blue-600" target="_blank">Syntax Journal</a>
-        </p>
+    </main><footer class="bg-gray-100 h-14 mt-10">
+    <div class="text-center h-full text-sm pt-3 pb-1">
+        Copyright HoZt &copy; 2024 All Rights Reserved
     </div>
-</footer></body>
+</footer></body> 
 
 </html>
