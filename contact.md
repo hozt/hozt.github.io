@@ -3,7 +3,7 @@ layout: base
 title: Contact Us
 permalink: /contact/
 bannerImage: /assets/images/banners/petrified.webp
-subTitle: Subtitle
+subTitle: Let Us Answer Your Questions
 ---
 
 We value your interest in HoZt. Whether you have a question about our services, need assistance with your project, or just want to learn more about how we can help your business thrive online, we're here to assist. Reach out to us using one of the methods below, and our team will get back to you promptly.

@@ -3,7 +3,7 @@ layout: base
 title: About HoZt
 permalink: /about/
 bannerImage: /assets/images/banners/dutchman.webp
-subTitle: Your partner in completing your project
+subTitle: Our Story, Mission, and the People Who Make It Happen
 ---
 
 ## Our Story

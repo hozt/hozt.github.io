@@ -3,7 +3,7 @@ layout: base
 title: Our Services
 permalink: /services/
 bannerImage: /assets/images/banners/two-cactus.webp
-subTitle: Your partner in completing your project
+subTitle: Comprehensive Services Tailored to Your Needs
 ---
 
 ### Website Upgrades

@@ -1,8 +1,8 @@
 ---
 layout: base
 bannerImage: /assets/images/banners/sedona1.webp
-title: Our Mission
-subTitle: Subtitle
+title: Transforming Your Visions into Reality
+subTitle: Where Innovation Meets Excellence
 ---
 
 <div class="my-6 text-lg">
@@ -16,28 +16,36 @@ subTitle: Subtitle
 <div class="mx-auto my-10">
     <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
         <div class="bg-gray-800 p-4 text-center">
-            <div class="fa fa-globe fa-4x text-gray-400 pb-2"></div>
-            <div class="text-lg text-white font-medium">Web Development</div>
-            <div class="text-sm text-white h-20">Transform your vision into reality with custom websites that blend aesthetics with functionality.</div>
-            <div class="mt-2"><a href="#" class="text-gray-400">Find Out More</a></div>
+            <a href="/static/">
+                <span class="fa fa-fighter-jet fa-4x text-gray-400 pb-2"></span>
+                <div class="text-lg text-white font-medium">Static Websites</div>/
+                <div class="text-sm text-white">Lightning fast website with zero maintenance or costs.</div>
+            </a>
         </div>
         <div class="bg-gray-800 p-4 text-center">
-            <div class="fa fa-fighter-jet fa-4x text-gray-400 pb-2"></div>
-            <div class="text-lg text-white font-medium">Static Website</div>
-            <div class="text-sm text-white h-20">Lightning fast website with zero maintenance and no hosting charges.</div>
-            <div class="mt-2"><a href="#" class="text-gray-400">Find Out More</a></div>
+            <a href="/ecommerce/">
+                <span class="fa fa-shopping-cart fa-4x text-gray-400 pb-2"></span>
+                <div class="text-lg text-white font-medium">eCommerce Solutions</div>
+                <div class="text-sm text-white">
+                    Expertly designed platforms on WooCommerce, PrestaShop, BigCommerce, and Drupal Commerce.
+                </div>
+            </a>
         </div>
         <div class="bg-gray-800 p-4 text-center">
-            <div class="fa fa-shopping-cart fa-4x text-gray-400 pb-2"></div>
-            <div class="text-lg text-white font-medium">eCommerce Solutions</div>
-            <div class="text-sm text-white h-20">Expertly designed platforms on WooCommerce, PrestaShop, BigCommerce, and Drupal Commerce.</div>
-            <div class="mt-2"><a href="#" class="text-gray-400">Find Out More</a></div>
+            <a href="/services/">
+                <span class="fa fa-wrench fa-4x text-gray-400 pb-2"></span>
+                <div class="text-lg text-white font-medium">Custom</div>
+                <div class="text-sm text-white">
+                    Data and platform migrations, website updates, and fix issues with your current website.
+                </div>
+            </a>
         </div>
         <div class="bg-gray-800 p-4 text-center">
-            <div class="fa fa-wrench fa-4x text-gray-400 pb-2"></div>
-            <div class="text-lg text-white font-medium">Custom</div>
-            <div class="text-sm text-white h-20">Data and platform migrations, website updates, and fix issues with your current website.</div>
-            <div class="mt-2"><a href="#" class="text-gray-400">Find Out More</a></div>
+            <a href="/why/">
+                <span class="fa fa-globe fa-4x text-gray-400 pb-2"></span>
+                <div class="text-lg text-white font-medium">Why HoZt?</div>
+                <div class="text-sm text-white">Mobile fast websites that blend aesthetics with functionality.</div>
+            </a>
         </div>
     </div>
 </div>
