@@ -38,7 +38,6 @@
                 <!-- Primary Navbar items -->
                 <div class="hidden md:flex items-center space-x-1 justify-self-end">
                     <a href="/about/" class="py-4 px-3 hover:bg-gray-700 hover:text-gray-200">About</a>
-                    <a href="/why/" class="py-4 px-3 hover:bg-gray-700 hover:text-gray-200">Why</a>
                     
                     <div class="relative group">
                         <button class="services py-4 px-3 inline-flex items-center hover:bg-gray-700 hover:text-gray-200">
@@ -54,6 +53,7 @@
                     </div> 
                     <a href="/static/" class="py-4 px-3 hover:bg-gray-700 hover:text-gray-200">Static</a>
                     <a href="/ecommerce/" class="py-4 px-3 hover:bg-gray-700 hover:text-gray-200">eCommerce</a>
+                    <a href="/why/" class="py-4 px-3 hover:bg-gray-700 hover:text-gray-200">Why</a>
                     <a href="/contact/" class="py-4 px-3 hover:bg-gray-700 hover:text-gray-200">Contact</a>
                 </div>
             </div>
@@ -83,18 +83,15 @@
     const menu = document.querySelector(".mobile-menu");
 
     btn.addEventListener("click", () => {
-        alert('here');     
         menu.classList.toggle("hidden");
-
     });
-
 </script>
 
 <div class="w-full mb-8 bg-no-repeat bg-cover bg-center relative" style="background-image: url('/assets/images/banners/sedona1.webp'); height: 400px;">
     <div class="absolute bottom-0 w-full">
         <div class="text-white text-center" style="background: rgba(8, 47, 73, 0.6)">
             <h1 class="pt-3 banner-font">Transforming Your Visions into Reality</h1>
-            <h2 class="pb-4 banner-font">Where Innovation Meets Excellence</h2>
+            <h2 class="pb-4 banner-font text-white">Where Innovation Meets Excellence</h2>
         </div>
     </div>
 </div>

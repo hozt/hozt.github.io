@@ -8,7 +8,7 @@ subTitle: Tailored eCommerce Solutions for Every Business
 
 Every business is unique, and so should be its online store. We offer tailored eCommerce development services that align with your specific business model, target audience, and long-term objectives. Our custom solutions ensure your online store stands out in the crowded digital marketplace.
 
-### Experience across a variety of eCommerce platforms:
+### Experience Across a Variety of eCommerce Platforms
 
 WooCommerce: Turn your WordPress website into a powerful eCommerce store with customized WooCommerce solutions.
 
