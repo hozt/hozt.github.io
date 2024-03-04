@@ -1,4 +1,96 @@
-<style type="text/css" media="screen">
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Add TailwindCSS to Jekyll demo by https://syntaxjournal.com/">
+    <title>: </title> 
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="HoZt" />
+
+    <!-- Favicon -->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/favicon/site.webmanifest"> -->
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@500&display=swap" rel="stylesheet">  
+
+    <!-- Custom styles for this template -->
+    <link href="/assets/dist-main.css" rel="stylesheet">
+  </head><body>
+<nav class="bg-sky-900 text-white">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between">
+            <div class="flex space-x-4">
+               <div>
+                    <a href="/" class="flex items-center py-2 w-24 px-2">
+                        <img src="/assets/images/logo.png" />
+                    </a>
+                </div>
+
+                <!-- Primary Navbar items -->
+                <div class="hidden md:flex items-center space-x-1 justify-self-end">
+                    <a href="/about/" class="py-4 px-3 hover:bg-gray-900 hover:text-gray-200">About</a>
+                    <a href="/services/" class="py-4 px-3 hover:bg-gray-900 hover:text-gray-200">Services</a>
+                    
+                    <!-- <div class="relative group">
+                        <button class="services py-4 px-3 inline-flex items-center hover:bg-gray-900 hover:text-gray-200">
+                            Services
+                            <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="services-links z-10 absolute hidden group-hover:block bg-gray-700">
+                            <a href="/services/#upgrades" class="text-white block py-1 px-4 hover:bg-gray-600">Website Upgrades</a>
+                            <a href="/services/#platform" class="text-white block py-1 px-4 hover:bg-gray-600">Platform Migrations</a>
+                            <a href="/services/#data" class="text-white block py-1 px-4 hover:bg-gray-600">Data Migration</a>
+                            <a href="/services/#fix" class="text-white block py-1 px-4 hover:bg-gray-600">Broken Websites</a>
+                        </div>
+                    </div>  -->
+                    <a href="/static/" class="py-4 px-3 hover:bg-gray-900 hover:text-gray-200">Static</a>
+                    <a href="/ecommerce/" class="py-4 px-3 hover:bg-gray-900 hover:text-gray-200">eCommerce</a>
+                    <a href="/why/" class="py-4 px-3 hover:bg-gray-900 hover:text-gray-200">Why</a>
+                    <a href="/testimonials/" class="block py-4 px-4 text-md hover:bg-gray-900">Testimonials</a>
+                    <a href="/contact/" class="py-4 px-3 hover:bg-gray-900 hover:text-gray-200">Contact</a>
+                </div>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden flex items-center">
+                <button class="mobile-menu-button">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden md:hidden mb-5">
+        <a href="/about/" class="block py-2 px-4 text-md">About</a>700">Why</a>
+        <a href="/services/" class="block py-2 px-4 text-md">Services</a>
+        <a href="/static/" class="block py-2 px-4 text-md">Static</a>
+        <a href="/ecommerce/" class="block py-2 px-4 text-md">eCommerce</a>
+        <a href="/why/" class="py-2 px-4">Why</a>
+        <a href="/testimonials/" class="block py-2 px-4 text-md">Testimonials</a>
+        <a href="/contact/" class="block py-2 px-4 text-md">Contact</a>
+    </div>
+</nav>
+
+<script>
+    const btn = document.querySelector(".mobile-menu-button");
+    const menu = document.querySelector(".mobile-menu");
+
+    btn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+    });
+</script>
+<main class="page-content max-w-screen-lg mx-auto h-full" aria-label="Content">
+      <div class="wrapper mt-5 mx-3 md:mx-10 text-lg">
+        <style type="text/css" media="screen">
   .container {
     margin: 10px auto;
     max-width: 600px;
@@ -18,3 +110,12 @@
   <p><strong>Page not found :(</strong></p>
   <p>The requested page could not be found.</p>
 </div>
+
+      </div>
+    </main><footer class="bg-gray-100 mt-12">
+    <div class="text-center text-sm py-3">
+        Copyright HoZt &copy; 2024 All Rights Reserved
+    </div>
+</footer></body> 
+
+</html>

@@ -18,4 +18,6 @@ Email: contact@hozt.com
 
 For direct inquiries, please fill out the form below. We’re eager to hear about your project and how we can support your digital journey.
 
+---
+
 {% include contact-us.html %}

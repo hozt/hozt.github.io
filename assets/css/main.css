@@ -7,10 +7,10 @@
         @apply text-3xl;
     }
     h2 {
-        @apply text-xl font-medium text-sky-900;
+        @apply text-2xl font-medium text-sky-900;
     }
     h3 {
-        @apply text-lg font-medium text-sky-900;
+        @apply text-xl font-medium text-sky-900;
     }
     h4 {
         @apply text-lg font-medium;

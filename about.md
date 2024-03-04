@@ -12,7 +12,7 @@ Founded in 2010 by a group of passionate digital experts, HoZt has a focus on in
 
 ## Our Mission
 
-At HoZt, our mission is to empower businesses by providing cutting-edge digital solutions. We believe in creating online experiences that not only meet the current needs of our clients but also anticipate and adapt to future trends. Our goal is to make technology accessible, scalable, and secure for businesses of all sizes.
+At HoZt we empower businesses with innovative solutions that help drive growth, enhance online presence, and streamline operations, delivering exceptional value through cutting-edge technology, strategic insights, and a commitment to client success.
 
 ## Our Values
 

@@ -23,24 +23,24 @@
 
     <!-- Custom styles for this template -->
     <link href="/assets/dist-main.css" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   </head><body>
 <nav class="bg-sky-900 text-white">
     <div class="max-w-6xl mx-auto px-4">
         <div class="flex justify-between">
             <div class="flex space-x-4">
                <div>
-                    <a href="/" class="flex items-center py-3 w-24 px-2">
+                    <a href="/" class="flex items-center py-2 w-24 px-2">
                         <img src="/assets/images/logo.png" />
                     </a>
                 </div>
 
                 <!-- Primary Navbar items -->
                 <div class="hidden md:flex items-center space-x-1 justify-self-end">
-                    <a href="/about/" class="py-4 px-3 hover:bg-gray-700 hover:text-gray-200">About</a>
+                    <a href="/about/" class="py-4 px-3 hover:bg-gray-900 hover:text-gray-200">About</a>
+                    <a href="/services/" class="py-4 px-3 hover:bg-gray-900 hover:text-gray-200">Services</a>
                     
-                    <div class="relative group">
-                        <button class="services py-4 px-3 inline-flex items-center hover:bg-gray-700 hover:text-gray-200">
+                    <!-- <div class="relative group">
+                        <button class="services py-4 px-3 inline-flex items-center hover:bg-gray-900 hover:text-gray-200">
                             Services
                             <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                         </button>
@@ -50,11 +50,12 @@
                             <a href="/services/#data" class="text-white block py-1 px-4 hover:bg-gray-600">Data Migration</a>
                             <a href="/services/#fix" class="text-white block py-1 px-4 hover:bg-gray-600">Broken Websites</a>
                         </div>
-                    </div> 
-                    <a href="/static/" class="py-4 px-3 hover:bg-gray-700 hover:text-gray-200">Static</a>
-                    <a href="/ecommerce/" class="py-4 px-3 hover:bg-gray-700 hover:text-gray-200">eCommerce</a>
-                    <a href="/why/" class="py-4 px-3 hover:bg-gray-700 hover:text-gray-200">Why</a>
-                    <a href="/contact/" class="py-4 px-3 hover:bg-gray-700 hover:text-gray-200">Contact</a>
+                    </div>  -->
+                    <a href="/static/" class="py-4 px-3 hover:bg-gray-900 hover:text-gray-200">Static</a>
+                    <a href="/ecommerce/" class="py-4 px-3 hover:bg-gray-900 hover:text-gray-200">eCommerce</a>
+                    <a href="/why/" class="py-4 px-3 hover:bg-gray-900 hover:text-gray-200">Why</a>
+                    <a href="/testimonials/" class="block py-4 px-4 text-md hover:bg-gray-900">Testimonials</a>
+                    <a href="/contact/" class="py-4 px-3 hover:bg-gray-900 hover:text-gray-200">Contact</a>
                 </div>
             </div>
 
@@ -69,12 +70,13 @@
 
     <!-- Mobile Menu -->
     <div class="mobile-menu hidden md:hidden mb-5">
-        <a href="/about/" class="block py-2 px-4 text-md hover:bg-gray-700">About</a>
-        <a href="/why/" class="block py-2 px-4 text-md hover:bg-gray-700">Why</a>
-        <a href="/services/" class="block py-2 px-4 text-md hover:bg-gray-700">Services</a>
-        <a href="/ecommerce/" class="block py-2 px-4 text-md hover:bg-gray-700">eCommerce</a>
-        <a href="/static/" class="block py-2 px-4 text-md hover:bg-gray-700">Static</a>
-        <a href="/contact/" class="block py-2 px-4 text-md hover:bg-gray-700">Contact</a>
+        <a href="/about/" class="block py-2 px-4 text-md">About</a>700">Why</a>
+        <a href="/services/" class="block py-2 px-4 text-md">Services</a>
+        <a href="/static/" class="block py-2 px-4 text-md">Static</a>
+        <a href="/ecommerce/" class="block py-2 px-4 text-md">eCommerce</a>
+        <a href="/why/" class="py-2 px-4">Why</a>
+        <a href="/testimonials/" class="block py-2 px-4 text-md">Testimonials</a>
+        <a href="/contact/" class="block py-2 px-4 text-md">Contact</a>
     </div>
 </nav>
 
@@ -87,16 +89,16 @@
     });
 </script>
 
-<div class="w-full mb-8 bg-no-repeat bg-cover bg-center relative" style="background-image: url('/assets/images/banners/petrified.webp'); height: 400px;">
+<div class="w-full mb-12 bg-no-repeat bg-cover bg-center relative" style="background-image: url('/assets/images/banners/petrified.webp'); height: 400px;">
     <div class="absolute bottom-0 w-full">
         <div class="text-white text-center" style="background: rgba(8, 47, 73, 0.6)">
-            <h1 class="pt-3 banner-font">Contact Us</h1>
-            <h2 class="pb-4 banner-font text-white">Let Us Answer Your Questions</h2>
+            <h1 class="pt-3 banner-font text-xl md:text-2xl">Contact Us</h1>
+            <h2 class="pb-4 banner-font text-white text-lg md:text-xl">Let Us Answer Your Questions</h2>
         </div>
     </div>
 </div>
 <main class="page-content max-w-screen-lg mx-auto h-full" aria-label="Content">
-      <div class="wrapper mt-5 mx-3 md:mx-10">
+      <div class="wrapper mt-5 mx-3 md:mx-10 text-lg">
         <p>We value your interest in HoZt. Whether you have a question about our services, need assistance with your project, or just want to learn more about how we can help your business thrive online, we’re here to assist. Reach out to us using one of the methods below, and our team will get back to you promptly.</p>
 
 <p>Feel free to call or email us during business hours. We aim to respond to all inquiries within 24 hours.</p>
@@ -108,6 +110,8 @@
 <p>Email: contact@hozt.com</p>
 
 <p>For direct inquiries, please fill out the form below. We’re eager to hear about your project and how we can support your digital journey.</p>
+
+<hr />
 
 <style>
 
@@ -212,8 +216,8 @@ input[type=submit]:focus{
 
 
       </div>
-    </main><footer class="bg-gray-100 mt-10">
-    <div class="text-center text-sm py-2">
+    </main><footer class="bg-gray-100 mt-12">
+    <div class="text-center text-sm py-3">
         Copyright HoZt &copy; 2024 All Rights Reserved
     </div>
 </footer></body> 
