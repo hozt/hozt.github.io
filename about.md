@@ -44,10 +44,10 @@ As a business analyst she is able to assess processes, determine requirements, a
 
 ---
 
-**John Doe (Developer)**
-John has excellent skills in coding and a passion for web design, John specializes in creating dynamic, user-friendly websites. His expertise in both front-end and back-end development ensures our projects are not only visually appealing but also functionally robust.
+**Angel Gomez (Developer)**
+Angel has excellent skills in coding and a passion for web design, Angel specializes in creating dynamic, user-friendly websites. His expertise in both front-end and back-end development ensures our projects are not only visually appealing but also functionally robust.
 
 ---
 
-**John Doe (Designer)**
-John's expertise in UX/UI design is evident in her ability to create seamless online experiences. He combines aesthetic sensibility with user-centered design principles to enhance usability and satisfaction.
+**Danish Janson (Designer)**
+Danish's expertise in UX/UI design is evident in her ability to create seamless online experiences. He combines aesthetic sensibility with user-centered design principles to enhance usability and satisfaction.
