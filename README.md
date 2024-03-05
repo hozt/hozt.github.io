@@ -8,5 +8,5 @@ Command for compiling and serving static pages:
 
 Command for running TailwindCSS:
 
-`npx tailwindcss -i .assets/css/style.css -o .assets/dist-style.css --watch`
+`npx tailwindcss -i assets/css/main.css -o .assets/dist-main.css --watch`
 
