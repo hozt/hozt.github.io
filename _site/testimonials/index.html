@@ -6,11 +6,6 @@
     <title>: Testimonials</title> 
     <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="HoZt" />
 
-    <!-- Favicon -->
-    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/assets/images/favicon/site.webmanifest"> -->
     <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/vnd.microsoft.icon" />
 
     <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
@@ -24,23 +19,23 @@
     <!-- Custom styles for this template -->
     <link href="/assets/dist-main.css" rel="stylesheet">
   </head><body>
-<nav class="bg-sky-900 text-white">
+<nav class="bg-sky-900 text-white text-xl">
     <div class="max-w-6xl mx-auto px-4">
         <div class="flex justify-between">
             <div class="flex space-x-4">
                <div>
-                    <a href="/" class="flex items-center py-2 w-24 px-2">
+                    <a href="/" class="flex items-center py-2 w-32 px-2">
                         <img src="/assets/images/logo.png" />
                     </a>
                 </div>
 
                 <!-- Primary Navbar items -->
                 <div class="hidden md:flex items-center space-x-1 justify-self-end">
-                    <a href="/about/" class="py-4 px-3 hover:bg-gray-900 hover:text-gray-200">About</a>
-                    <a href="/services/" class="py-4 px-3 hover:bg-gray-900 hover:text-gray-200">Services</a>
+                    <a href="/about/" class="p-6 hover:bg-gray-900 hover:text-gray-200">About</a>
+                    <a href="/services/" class="p-6 hover:bg-gray-900 hover:text-gray-200">Services</a>
                     
                     <!-- <div class="relative group">
-                        <button class="services py-4 px-3 inline-flex items-center hover:bg-gray-900 hover:text-gray-200">
+                        <button class="services p-6 inline-flex items-center hover:bg-gray-900 hover:text-gray-200">
                             Services
                             <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                         </button>
@@ -51,11 +46,11 @@
                             <a href="/services/#fix" class="text-white block py-1 px-4 hover:bg-gray-600">Broken Websites</a>
                         </div>
                     </div>  -->
-                    <a href="/static/" class="py-4 px-3 hover:bg-gray-900 hover:text-gray-200">Static</a>
-                    <a href="/ecommerce/" class="py-4 px-3 hover:bg-gray-900 hover:text-gray-200">eCommerce</a>
-                    <a href="/why/" class="py-4 px-3 hover:bg-gray-900 hover:text-gray-200">Why</a>
-                    <a href="/testimonials/" class="block py-4 px-4 text-md hover:bg-gray-900">Testimonials</a>
-                    <a href="/contact/" class="py-4 px-3 hover:bg-gray-900 hover:text-gray-200">Contact</a>
+                    <a href="/static/" class="p-6 hover:bg-gray-900 hover:text-gray-200">Static</a>
+                    <a href="/ecommerce/" class="p-6 hover:bg-gray-900 hover:text-gray-200">eCommerce</a>
+                    <a href="/why/" class="p-6 hover:bg-gray-900 hover:text-gray-200">Why</a>
+                    <!-- <a href="/testimonials/" class="block p-6 text-md hover:bg-gray-900">Testimonials</a> -->
+                    <a href="/contact/" class="p-6 hover:bg-gray-900 hover:text-gray-200">Contact</a>
                 </div>
             </div>
 
@@ -69,14 +64,14 @@
     </div>
 
     <!-- Mobile Menu -->
-    <div class="mobile-menu hidden md:hidden mb-5">
-        <a href="/about/" class="block py-2 px-4 text-md">About</a>700">Why</a>
-        <a href="/services/" class="block py-2 px-4 text-md">Services</a>
-        <a href="/static/" class="block py-2 px-4 text-md">Static</a>
-        <a href="/ecommerce/" class="block py-2 px-4 text-md">eCommerce</a>
-        <a href="/why/" class="py-2 px-4">Why</a>
-        <a href="/testimonials/" class="block py-2 px-4 text-md">Testimonials</a>
-        <a href="/contact/" class="block py-2 px-4 text-md">Contact</a>
+    <div class="mobile-menu hidden md:hidden mb-5 text-md">
+        <a href="/about/" class="block py-2 px-4">About</a>
+        <a href="/services/" class="block py-2 px-4">Services</a>
+        <a href="/static/" class="block py-2 px-4">Static</a>
+        <a href="/ecommerce/" class="block py-2 px-4">eCommerce</a>
+        <a href="/why/" class="block py-2 px-4">Why</a>
+        <!-- <a href="/testimonials/" class="block py-2 px-4 text-md">Testimonials</a> -->
+        <a href="/contact/" class="block py-2 px-4">Contact</a>
     </div>
 </nav>
 
@@ -89,34 +84,48 @@
     });
 </script>
 
-<div class="w-full mb-12 bg-no-repeat bg-cover bg-center relative" style="background-image: url('/assets/images/banners/cemetary.webp'); height: 400px;">
+<div class="w-full mb-8 md:mb-12 bg-no-repeat bg-cover bg-center relative h-72 md:h-96" style="background-image: url('/assets/images/banners/cemetary.webp');">
     <div class="absolute bottom-0 w-full">
         <div class="text-white text-center" style="background: rgba(8, 47, 73, 0.6)">
-            <h1 class="pt-3 banner-font text-xl md:text-2xl">Testimonials</h1>
-            <h2 class="pb-4 banner-font text-white text-lg md:text-xl">What Our Clients Say</h2>
+            <h1 class="pt-3 banner-font text-xl md:text-3xl">Testimonials</h1>
+            <h2 class="pb-4 banner-font text-white text-base md:text-xl">What Our Clients Say</h2>
         </div>
     </div>
 </div>
 <main class="page-content max-w-screen-lg mx-auto h-full" aria-label="Content">
-      <div class="wrapper mt-5 mx-3 md:mx-10 text-lg">
+      <div class="wrapper mt-5 mx-4 md:mx-10 text-lg">
         <p>Transforming visions into digital realities - HoZt exceeded our expectations on every level. - <strong>Alex M., CEO of Tech Innovations</strong></p>
+
+<hr />
 
 <p>Thanks to HoZt, our website traffic has doubled, and sales have skyrocketed. A game-changer for our online business. - <strong>Samantha K., Marketing Director, Retail Wonderland</strong></p>
 
+<hr />
+
 <p>HoZt’s team turned our complex problems into simple, effective solutions. Outstanding professionalism and expertise. - <strong>Ethan J., Project Manager, Global Solutions Inc.</strong></p>
+
+<hr />
 
 <p>Their attention to detail and commitment to excellence is evident in every aspect of their work. Truly a cut above the rest. - <strong>Olivia R., Creative Director, Design Studio</strong></p>
 
+<hr />
+
 <p>From start to finish, the project management and delivery were flawless. HoZt has set a new standard for what we expect from digital partners. - <strong>Michael D., Operations Manager, Fast Logistics</strong></p>
+
+<hr />
 
 <p>HoZt not only met our tight deadlines but also delivered a product that has significantly improved our operational efficiency. - <strong>Sarah L., Business Analyst, Efficient Energy Solutions</strong></p>
 
+<hr />
+
 <p>Their innovative approach and technical prowess have revolutionized the way we approach our digital strategy. - <strong>Daniel P., Strategy Officer, Finance Corp</strong></p>
+
+<hr />
 
 <p>Exceptional service, insightful strategies, and impactful results - HoZt has been instrumental in our digital transformation journey. - <strong>Jessica T., Digital Transformation Lead, HealthPlus Group</strong></p>
 
       </div>
-    </main><footer class="bg-gray-100 mt-12">
+    </main><footer class="bg-gray-100 mt-6 md:mt-12">
     <div class="text-center text-sm py-3">
         Copyright HoZt &copy; 2024 All Rights Reserved
     </div>
